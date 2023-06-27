@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Omah - Real Estate</title>
+
+		<!-- fonts google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- css -->
+		<link rel="stylesheet" href="/css/main.css" />
+	</head>
+	<body>
+		<header class="header">
+			<!-- header section: start -->
+			<div class="container">
+				<div class="header__brand">Omah</div>
+				<div class="nav">
+					<a class="nav__link" href="#">Home</a>
+					<a class="nav__link" href="#">To rent</a>
+					<a class="nav__link" href="#">For sale</a>
+					<a class="nav__link" href="#">Blog</a>
+
+					<a class="nav__cta" href="#">Log in</a>
+				</div>
+			</div>
+			<!-- header section: end -->
+		</header>
+
+		<section class="hero">
+			<!-- hero section: start -->
+			<div class="container">
+				<div class="hero__header">
+					<h2 class="hero__heading">
+						Ready to<br />
+						find your new home
+					</h2>
+					<p class="hero__subheading">
+						looking for a house with a low price and quality here, and sell your
+						house quickly here
+					</p>
+				</div>
+			</div>
+
+			<div class="hero__display">
+				<img
+					class="hero__display__image"
+					src="/images/bernard-hermant-KqOLr8OiQLU-unsplash1.svg"
+				/>
+				<div class="hero__display__card">
+					<form class="hero__display__form">
+						<div class="hero__input__group">
+							<label for="city">Select city</label>
+							<select class="hero__input__select" name="city" id="city">
+								<option value="">Jakarta</option>
+								<option value="">Bandung</option>
+								<option value="">Bali</option>
+								<option value="">Medan</option>
+							</select>
+						</div>
+
+						<div class="hero__input__group">
+							<label for="price">Price</label>
+							<select class="hero__input__select" name="price" id="price">
+								<option value="">$500 - $1000</option>
+								<option value="">$1000 - $2000</option>
+								<option value="">$2000++</option>
+							</select>
+						</div>
+
+						<div class="hero__input__group">
+							<label for="rooms">Rooms</label>
+							<select class="hero__input__select" name="rooms" id="rooms">
+								<option value="">1 rooms</option>
+								<option value="">2 rooms</option>
+								<option value="">3 rooms</option>
+								<option value="">4 rooms</option>
+								<option value="">5 rooms</option>
+							</select>
+						</div>
+
+						<div class="hero__input__group">
+							<label for="fotage">Fotage</label>
+							<select class="hero__input__select" name="fotage" id="fotage">
+								<option value="">1 fotage</option>
+								<option value="">2 fotage</option>
+								<option value="">3 fotage</option>
+							</select>
+						</div>
+
+						<button class="hero__search">Search</button>
+					</form>
+				</div>
+			</div>
+			<!-- hero section: end -->
+		</section>
+
+		<section class="sale-house">
+			<!-- sale-house section: start -->
+			<div class="container">
+				<div class="sale-house__header">
+					<div class="sale-house__nav">
+						<h2 class="sale-house__heading">The latest</h2>
+						<a
+							class="sale-house__nav__link sale-house__nav__link--active"
+							href="#"
+							>For sale</a
+						>
+						<a class="sale-house__nav__link" href="#">To rent</a>
+					</div>
+
+					<a class="sale-house__cta" href="#">View all</a>
+				</div>
+
+				<div class="sale-house__content">
+					<div class="sale-house__card">
+						<div class="sale-house__card__display">
+							<img
+								class="sale-house__card__display__image"
+								src="/images/terrah-holly-pmhdkgRCbtE-unsplash1.png"
+							/>
+							<div class="sale-house__card__favorite">
+								<img src="/icons/love.png" />
+							</div>
+							<div class="sale-house__card__detail">3 room</div>
+						</div>
+
+						<div class="sale-house__card__description">
+							<h3 class="sale-house__card__name">Orange house</h3>
+							<p class="sale-house__card__address">
+								Jl Klapanunggal, cileungsi, bogor
+							</p>
+							<p class="sale-house__card__price">$1,435,000</p>
+						</div>
+					</div>
+
+					<div class="sale-house__card">
+						<div class="sale-house__card__display">
+							<img
+								class="sale-house__card__display__image"
+								src="/images/olle-carron-JlVsHicccYaKGZ-unsplash1.png"
+							/>
+							<div class="sale-house__card__favorite">
+								<img src="/icons/love.png" />
+							</div>
+							<div class="sale-house__card__detail">2 room</div>
+						</div>
+
+						<div class="sale-house__card__description">
+							<h3 class="sale-house__card__name">White house</h3>
+							<p class="sale-house__card__address">
+								Jl Klapanunggal, cileungsi, bogor
+							</p>
+							<p class="sale-house__card__price">$1,200,500</p>
+						</div>
+					</div>
+
+					<div class="sale-house__card">
+						<div class="sale-house__card__display">
+							<img
+								class="sale-house__card__display__image"
+								src="/images/emmet-hammilcar-AHncIznNI080rE-unsplash1.png"
+							/>
+							<div class="sale-house__card__favorite">
+								<img src="/icons/love.png" />
+							</div>
+							<div class="sale-house__card__detail">2 room</div>
+						</div>
+
+						<div class="sale-house__card__description">
+							<h3 class="sale-house__card__name">Green house</h3>
+							<p class="sale-house__card__address">
+								Jl Klapanunggal, cileungsi, bogor
+							</p>
+							<p class="sale-house__card__price">$2,300,500</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- sale-house section: end -->
+		</section>
+
+		<section class="review">
+			<!-- review section: start -->
+			<div class="container">
+				<div class="review__header">
+					<h2 class="review__heading">
+						Some people are very<br />satisfied buying a house here
+					</h2>
+
+					<a class="review__cta" href="#">View all</a>
+				</div>
+
+				<div class="review__content">
+					<div class="review__card">
+						<div class="review__card__display">
+							<img
+								class="review__card__image"
+								src="/images/pretty-beautiful-woman-with-blonde-long-hair-having-excited-happy-facial-expression1.png"
+							/>
+							<div class="review__card__name">Kara Doe</div>
+						</div>
+						<div class="review__card__content">
+							<p class="review__card__text">
+								I am very satisfied buying a house ere because it is fast and
+								easy
+							</p>
+						</div>
+					</div>
+
+					<div class="review__card">
+						<div class="review__card__display">
+							<img
+								class="review__card__image"
+								src="/images/pretty-beautiful-woman-with-blonde-long-hair-having-excited-happy-facial-expression2.png"
+							/>
+							<div class="review__card__name">Angel Doe</div>
+						</div>
+						<div class="review__card__content">
+							<p class="review__card__text">
+								Buying a house here is very cheap and high quality
+							</p>
+						</div>
+					</div>
+
+					<div class="review__card">
+						<div class="review__card__display">
+							<img
+								class="review__card__image"
+								src="/images/pretty-beautiful-woman-with-blonde-long-hair-having-excited-happy-facial-expression1.png"
+							/>
+							<div class="review__card__name">Kara Doe</div>
+						</div>
+						<div class="review__card__content">
+							<p class="review__card__text">
+								I am very satisfied buying a house ere because it is fast and
+								easy
+							</p>
+						</div>
+					</div>
+
+					<div class="review__card">
+						<div class="review__card__display">
+							<img
+								class="review__card__image"
+								src="/images/pretty-beautiful-woman-with-blonde-long-hair-having-excited-happy-facial-expression1.png"
+							/>
+							<div class="review__card__name">Kara Doe</div>
+						</div>
+						<div class="review__card__content">
+							<p class="review__card__text">
+								I am very satisfied buying a house ere because it is fast and
+								easy
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- review section: end -->
+		</section>
+
+		<section class="blog">
+			<!-- blog section: start -->
+			<div class="container">
+				<div class="blog__header">
+					<h2 class="blog__heading">Always check our<br />latest blog</h2>
+
+					<a class="blog__cta" href="">View all</a>
+				</div>
+
+				<div class="blog__content">
+					<div class="blog__card-main">
+						<div class="blog__card-main__display">
+							<img
+								class="blog__card-main__image"
+								src="/images/aubrey-odom-mrSuM73pmsw-unsplash1.png"
+							/>
+							<div class="blog__card-main__author">
+								<img
+									class="blog__card-main__author__image"
+									src="/images/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands.png"
+								/>
+
+								<div class="blog__card-main__author__detail">
+									<p class="blog__card-main__name">Yusuf Firdaus</p>
+									<p class="blog__card-main__role">admin</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="blog__card-list">
+						<div class="blog__card">
+							<div class="blog__card__description">
+								<h3 class="blog__card__title">
+									Creating a clean and elegant home
+								</h3>
+
+								<p class="blog__card__name">Albert Firdaus</p>
+							</div>
+
+							<div class="blog__card__display">
+								<img
+									class="blog__card__image"
+									src="/images/liana-mikah-HstwCJX0jT4-unsplash1.png"
+								/>
+							</div>
+						</div>
+
+						<div class="blog__card">
+							<div class="blog__card__description">
+								<h3 class="blog__card__title">Good paint color for home</h3>
+
+								<p class="blog__card__name">Rusy Firdaus</p>
+							</div>
+
+							<div class="blog__card__display">
+								<img
+									class="blog__card__image"
+									src="/images/yoann-siloine-LiDVw7tZPfY-unsplash1.png"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<div class="blog__card-main__description">
+						<h3 class="blog__card-main__title">
+							Tips and tricks in choosing a house
+						</h3>
+						<p class="blog__card-main__excerpt">
+							tips and tricks to buy a house easily here is to buy at a low
+							price
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- blog section: end -->
+		</section>
+
+		<section class="subscribe">
+			<!-- subscribe section: start -->
+			<div class="container">
+				<h2 class="subscribe__heading">
+					Subscribe to get a discount<br />of 30%
+				</h2>
+
+				<form>
+					<div class="subscribe__input-group">
+						<input
+							class="subscribe__input-text"
+							type="text"
+							placeholder="Enter your email address"
+						/>
+						<button class="subscribe__button">Subscribe</button>
+					</div>
+				</form>
+			</div>
+			<!-- subscribe section: end -->
+		</section>
+
+		<footer class="footer">
+			<p class="footer__copyright">Omah - 2023</p>
+		</footer>
+	</body>
+</html>
