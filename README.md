@@ -3,3 +3,4 @@ Ini adalah repository slicing dari kumpulan design yang ada di [codedesign](http
 
 List:
  - Omah
+ - Bubble Bash
